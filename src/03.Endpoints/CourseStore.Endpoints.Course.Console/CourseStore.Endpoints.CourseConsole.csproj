@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\CourseStore.Core.Domin\CourseStore.Core.Domin.csproj" />
+    <ProjectReference Include="..\..\02.Infra\CourseStore.Infra.Data.Sql\CourseStore.Infra.Data.Sql.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10"></PackageReference>
+	</ItemGroup>
+</Project>
